@@ -1,4 +1,4 @@
-# README: LLaMA 3.1/3.2 Fine-tuning with Unsloth
+# LLaMA 3.1/3.2 Fine-tuning with Unsloth
 
 ## Project Overview
 This project provides an end-to-end solution for fine-tuning LLaMA 3.1 and LLaMA 3.2 models using the **Unsloth** library for accelerated training. The objective is to fine-tune these models on domain-specific tasks using a CSV file containing a **Question and Answer (QA)** format. The project is specifically designed for **Advanced Named Entity Recognition (NER)** with entity extraction capabilities. After fine-tuning, the model can be used to build domain-specific chatbots or integrated into AI agents. remove the pip install lines iif anyone wants to run it directly. Also, setup a environment using pyenv and install the dependancies using requirements.txt
@@ -40,7 +40,7 @@ Alternatively, to run locally:
 python ice_dev_5_merged_training_3.py --input data/qa_data.csv --output models/finetuned_llama
 ```
 
-If anyone wants to try the project on Kaggle, visit:
+If anyone wants to try the project on Kaggle, visit (fine tuned model will be used to do inference):
 [Kaggle Notebook](https://www.kaggle.com/code/icedev/ice-dev-demo)
 
 ## Dependencies
